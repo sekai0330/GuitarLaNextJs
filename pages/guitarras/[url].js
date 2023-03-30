@@ -73,7 +73,7 @@ export async function getStaticPaths(){
 
     return {
         paths,
-        fallback: false
+        fallback: false,
     }
 }
 
@@ -84,7 +84,7 @@ export async function getStaticProps({params: {url}}){
 
     return {
         props:{
-            guitarra
+            guitarra,
         }
     }
 }
